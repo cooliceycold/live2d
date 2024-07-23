@@ -43,20 +43,7 @@
    <link rel="stylesheet" href="https://testingcf.jsdelivr.net/gh/cooliceycold/live2d/css/right.min.css"/>
    ```
    
-4. 使用`fastly-jsdelivr`引入。
-
-   ```html
-   <!-- 顺序切换模型材质 -->
-   <script src="https://fastly.jsdelivr.net/gh/cooliceycold/live2d/jsdelivr/fastly/sequential/autoload.min.js"></script>
-   <!-- 随机切换模型材质 -->
-   <script src="https://fastly.jsdelivr.net/gh/cooliceycold/live2d/jsdelivr/fastly/random/autoload.min.js"></script>
-   <!-- 看板娘位置靠左 -->
-   <link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/cooliceycold/live2d/css/left.min.css"/>
-   <!-- 看板娘位置靠右 -->
-   <link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/cooliceycold/live2d/css/right.min.css"/>
-   ```
-
-5. 使用`gcore-jsdelivr`引入。
+4. 使用`gcore-jsdelivr`引入。
 
    ```html
    <!-- 顺序切换模型材质 -->
