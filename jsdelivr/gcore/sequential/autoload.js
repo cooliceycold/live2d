@@ -1,8 +1,6 @@
-// 注意：live2d_path 参数应使用绝对路径
-// const live2d_path =
-//   "https://fastly.jsdelivr.net/gh/nova1751/live2d-widget@latest/";
 
-const live2d_path = "https://jsd.cdn.zzko.cn/gh/nova1751/live2d-api@latest/";
+
+const live2d_path = "https://gcore.jsdelivr.net/gh/cooliceycold/live2d/";
 
 // 封装异步加载资源的方法
 function loadExternalResource(url, type) {
@@ -29,7 +27,7 @@ if (screen.width >= 768) {
   Promise.all([
     loadExternalResource(live2d_path + "live2d.min.js", "js"),
     loadExternalResource(
-      live2d_path + "jsdelivr/sequential/waifu-tips.js",
+      live2d_path + "jsdelivr/gcore/sequential/waifu-tips.js",
       "js"
     ),
   ]).then(() => {
@@ -37,7 +35,6 @@ if (screen.width >= 768) {
     initWidget({
       waifuPath: live2d_path + "waifu-tips.json",
 
-      // apiPath: "https://live2d.fghrsh.net/api/",
       cdnPath: live2d_path,
 
       tools: [
